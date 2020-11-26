@@ -144,3 +144,49 @@ body{
 
     }
 }
+
+.title{
+    margin-top: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    color: $textHeadColor;
+}
+
+.line{
+    width: 128px;
+    margin-top: -14px;
+    border: 2px solid $accentColor;
+}
+
+.description{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.sa-button{
+    margin-top: 32px;
+    background-color:$accentColor;
+    padding: 12px 32px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+}
+
+.section-about{
+    padding: 76px 0px;
+    margin-top: 36px;
+
+    img{
+        margin-left: 74px;
+        height: 413px;
+    }
+
+    .line{
+        position: absolute;
+    }
+}
+

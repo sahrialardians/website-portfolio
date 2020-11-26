@@ -133,4 +133,49 @@ body header {
     margin-top: -20px;
   }
 }
+
+.title {
+  margin-top: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 54px;
+  color: #102D58;
+}
+
+.line {
+  width: 128px;
+  margin-top: -14px;
+  border: 2px solid #FF961C;
+}
+
+.description {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.sa-button {
+  margin-top: 32px;
+  background-color: #FF961C;
+  padding: 12px 32px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 10px;
+}
+
+.section-about {
+  padding: 76px 0px;
+  margin-top: 36px;
+}
+
+.section-about img {
+  margin-left: 74px;
+  height: 413px;
+}
+
+.section-about .line {
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
