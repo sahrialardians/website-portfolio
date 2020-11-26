@@ -1,0 +1,146 @@
+// variables
+$primaryColor: #FFFFFF;
+$secondaryColor:#1C53A6;
+$accentColor: #FF961C;
+
+$textHeroColor: #F9F9F9;
+$textSubHeroColor: #CFCFCF;
+
+$textHeadColor: #102D58;
+$textBodyColor: #122036;
+
+// styles
+body{
+    font-family: 'Assistant', sans-serif;
+
+    header{
+        background-color: $secondaryColor;
+        height: 562px;
+        border-radius: 0px 0px 105px 0px;
+    }
+}
+
+.sa-navbar{
+    padding: 20px 0px;
+
+    .navbar-brand{
+        img{
+            width: 45px;
+            height: 44.24px;
+            margin-top: -7px;
+        }
+
+        span{
+            font-family: 'Assistant', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: $primaryColor;
+            margin-left: 10px;
+        }
+    }
+
+    #navbarNav{
+        .navbar-nav{
+            .nav-item{
+
+                @media screen and (max-width: 992px) {
+                    margin-left: 36px;
+                    z-index: 1;
+                }
+
+                .nav-link{
+                    color: $primaryColor;
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    margin-left: 24px;
+                    transition: 0.2s color ease-in;
+
+                    &:hover{
+                        color: darken($primaryColor, 30%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-section{
+    padding: 0px 66px;
+    margin: 36px 0px;
+
+    .bg-circle{
+        position: absolute;
+        top: 108px;
+        left: 60px;
+        height: 318px;
+        // z-index: -1;
+
+        @media screen and (max-width: 992px) {
+            top: 42px;
+            left: -48px;
+        }
+
+        @media screen and (max-width: 425px){
+            top: 31px;
+            left: -48px;
+            height: 264px;
+        }
+    }
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        color: $textHeroColor;
+        line-height: 60px;
+        text-transform: capitalize;
+        margin-top: 40px;
+
+        @media screen and (max-width: 425px) {
+            line-height: 40px;
+            font-size: 30px;
+        }
+    }
+
+    hr{
+        width: 128px;
+        margin-top: -10px;
+        position: absolute;
+        border: 2px solid $accentColor;
+    }
+
+    p{
+        margin-top: 36px;
+        font-weight: 200;
+        font-size: 20px;
+        color: $textSubHeroColor !important;
+        line-height: 26px;
+        color: $textHeroColor;
+    }
+
+    a{
+        margin-top: 32px;
+        background-color:$accentColor;
+        padding: 12px 32px;
+        font-weight: 500;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    img{
+        height: 484px;
+        float: right;
+
+        @media screen and (max-width: 992px) {
+            margin-top: 46px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 0px 14px;
+        margin-top: -20px;
+
+
+    }
+}
