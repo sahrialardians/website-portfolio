@@ -291,6 +291,8 @@ body{
 }
 
 .section-skiils{
+    margin-top: 268px;
+
     .line{
         position: absolute;
         margin-top: -4px;
@@ -307,6 +309,59 @@ body{
             margin-top: 50px;
             width: 460px;
         }
+    }
+}
+
+
+.section-learn{
+    margin-top: 123px;
+
+    img{
+        margin-top: 56px;
+    }
+}
+
+.hero-work{
+    .title{
+        color: $textHeroColor;
+        font-size: 40px;
+    }
+
+    .nav{
+        .nav-item{
+            margin-top: 36px;
+            margin-right: 45px;
+        }
+
+        .nav-link{
+            color: $textHeroColor;
+            font-size: 26px;
+            font-weight: 600;
+
+            padding:0px;
+            margin-bottom: 16px;
+        }
+
+        .active{
+            border-bottom: 4px solid $accentColor;
+            line-height: 1.65;
+            border-radius: 0;
+        }
+    }
+}
+
+.section-list-works{
+    margin-top: -220px;
+
+    .card{
+        border-radius: 20px;
+        border: none;
+    }
+
+    .thumbnail-work{
+        background: #F5F5F5;
+        border-radius: 20px;
+        border: none;
     }
 }
 
@@ -368,11 +423,30 @@ body{
     font-weight: 500;
     border: 0;
     border-radius: 10px;
+
+    transition: 0.2s background-color ease-in;
+
+    &:hover{
+        background-color: lighten($accentColor, 10%);
+    }
+
+    &:active{
+        background-color: lighten($accentColor, 10%) !important;
+        outline: none !important;
+    }
+
+    &:visited{
+        background-color:$accentColor;
+    }
 }
 
 
 footer{
     height: 480px;
+    background-image: url('/assets/images/elipse.png');
+    background-repeat: no-repeat;
+    background-position-y: 220px;
+    background-position-x: right;
     background-color: $textHeadColor;
     // color: $textHeroColor;
     .row{
@@ -395,6 +469,14 @@ footer{
 
         p:nth-child(3) {
             color: $textSubHeroColor;
+        }
+
+        .linked{
+            .row{
+                margin-top: 295px;
+                margin-right: 40px;
+                float: right;
+            }
         }
     }
 }
@@ -421,8 +503,8 @@ footer{
 
 
 @media screen and (max-width: 768px) {
-    body{
-        display: none;
-    }
+    // body{
+    //     display: none;
+    // }
 }
 
