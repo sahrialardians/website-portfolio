@@ -353,6 +353,23 @@ body header {
   border: none;
 }
 
+.section-list-works .thumbnail-work a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+  background-color: rgba(18, 32, 54, 0.54);
+  border-radius: 20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.section-list-works .thumbnail-work a:hover {
+  opacity: 1;
+}
+
 .section-list-works .form-contact {
   background: #F5F5F5;
   border-radius: 20px;
