@@ -338,6 +338,10 @@ body header {
   margin-top: -220px;
 }
 
+.section-list-works .line {
+  position: absolute;
+}
+
 .section-list-works .card {
   border-radius: 20px;
   border: none;
@@ -347,6 +351,41 @@ body header {
   background: #F5F5F5;
   border-radius: 20px;
   border: none;
+}
+
+.section-list-works .form-contact {
+  background: #F5F5F5;
+  border-radius: 20px;
+  border: none;
+  padding: 26px 26px;
+}
+
+.section-list-works .form-contact .form-group {
+  margin-bottom: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #122036;
+}
+
+.section-list-works .form-contact .form-group input {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  height: 46px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0;
+}
+
+.section-list-works .form-contact .form-group textarea {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0;
 }
 
 .title {
@@ -406,7 +445,6 @@ body header {
 }
 
 .sa-button {
-  margin-top: 32px;
   background-color: #FF961C;
   padding: 12px 32px;
   font-weight: 500;
