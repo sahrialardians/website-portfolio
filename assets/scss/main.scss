@@ -22,6 +22,11 @@ body{
     }
 }
 
+.header-detail{
+    background-color: $secondaryColor;
+    height: 380px;
+}
+
 .sa-navbar{
     padding: 20px 0px;
 
@@ -331,17 +336,14 @@ body{
 
     .nav{
         .nav-item{
-            margin-top: 36px;
             margin-right: 45px;
         }
 
         .nav-link{
             color: $textHeroColor;
             font-size: 26px;
-            font-weight: 600;
-
+            margin-top: 8px;
             padding:0px;
-            margin-bottom: 16px;
         }
 
         .active{
@@ -350,13 +352,28 @@ body{
             border-radius: 0;
         }
     }
+
+    .breadcrumb{
+        .breadcrumb-item a{
+            color: $textHeroColor;
+        }
+        .active{
+            color: #cdcdcd;
+        }
+    }
 }
 
 .section-list-works{
-    margin-top: -220px;
+    margin-top: -90px;
 
     .line{
         position: absolute;
+    }
+
+    .row{
+        .title{
+            margin-top: 164px;
+        }
     }
 
     .card{
@@ -428,6 +445,26 @@ body{
                 border: 0;
             }
         }
+    }
+}
+
+.section-work-detail{
+
+    margin-top: -90px;
+
+    .line{
+        position: absolute;
+    }
+
+    .card{
+        border-radius: 20px;
+        border: none;
+    }
+
+    .thumbnail-work{
+        background: #F5F5F5;
+        border-radius: 20px;
+        border: none;
     }
 }
 

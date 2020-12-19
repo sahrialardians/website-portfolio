@@ -8,6 +8,11 @@ body header {
   border-radius: 0px 0px 105px 0px;
 }
 
+.header-detail {
+  background-color: #1C53A6;
+  height: 380px;
+}
+
 .sa-navbar {
   padding: 20px 0px;
 }
@@ -316,16 +321,14 @@ body header {
 }
 
 .hero-work .nav .nav-item {
-  margin-top: 36px;
   margin-right: 45px;
 }
 
 .hero-work .nav .nav-link {
   color: #F9F9F9;
   font-size: 26px;
-  font-weight: 600;
+  margin-top: 8px;
   padding: 0px;
-  margin-bottom: 16px;
 }
 
 .hero-work .nav .active {
@@ -334,12 +337,24 @@ body header {
   border-radius: 0;
 }
 
+.hero-work .breadcrumb .breadcrumb-item a {
+  color: #F9F9F9;
+}
+
+.hero-work .breadcrumb .active {
+  color: #cdcdcd;
+}
+
 .section-list-works {
-  margin-top: -220px;
+  margin-top: -90px;
 }
 
 .section-list-works .line {
   position: absolute;
+}
+
+.section-list-works .row .title {
+  margin-top: 164px;
 }
 
 .section-list-works .card {
@@ -403,6 +418,25 @@ body header {
   background: #FFFFFF;
   border-radius: 10px;
   border: 0;
+}
+
+.section-work-detail {
+  margin-top: -90px;
+}
+
+.section-work-detail .line {
+  position: absolute;
+}
+
+.section-work-detail .card {
+  border-radius: 20px;
+  border: none;
+}
+
+.section-work-detail .thumbnail-work {
+  background: #F5F5F5;
+  border-radius: 20px;
+  border: none;
 }
 
 .title {
