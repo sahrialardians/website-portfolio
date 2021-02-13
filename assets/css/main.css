@@ -520,7 +520,6 @@ body header {
 
 footer {
   height: 480px;
-  background-image: url("/assets/images/elipse.png");
   background-repeat: no-repeat;
   background-position-y: 220px;
   background-position-x: right;
