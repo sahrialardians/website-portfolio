@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Hi, I'm Sahrial - Portofolio Website</title>
   </head>
   <body>
@@ -54,19 +56,19 @@
           <div class="row">
             <img class="bg-circle" src="assets/images/bg_elipse.svg" alt="">
             <div class="col-12 col-lg-6">
-              <h1>
+              <h1 data-aos="fade-down">
                 Hi, I'm Sahrial <br>
                 Ardians
               </h1>
-              <hr>
-              <p>
+              <hr data-aos="zoom-in">
+              <p data-aos="fade-up">
                 A Web Developer from Medan, Indonesia. <br>
                 Available for remote job & freelance projects.
                 Any ideas you want to build?
               </p>
-              <a class="btn btn-primary sa-button" href="#">Start Project</a>
+              <a class="btn btn-primary sa-button" href="#" data-aos="fade-up">Start Project</a>
             </div>
-            <div class="col-12 col-lg-6 text-center d-none d-lg-block">
+            <div class="col-12 col-lg-6 text-center d-none d-lg-block" data-aos="fade-left">
               <img src="assets/images/hero-image.png" alt="About Picture of Sahrial">
             </div>
           </div>
@@ -98,14 +100,14 @@
 
       <!-- Services -->
       <section class="section-services">
-        <h2 class="text-center title">What I can do?</h2>
-        <hr class="text-center line">
-        <p class="text-center description">
+        <h2 class="text-center title" data-aos="zoom-in">What I can do?</h2>
+        <hr class="text-center line" data-aos="zoom-in">
+        <p class="text-center description" data-aos="zoom-in">
           I can work with you to transform your ideas.
         </p>
         <div class="row d-flex justify-content-center">
           <div class="col-md-3 mb-3 d-md-block">
-            <div class="card">
+            <div class="card" data-aos="fade-down">
               <div class="card-body">
                 <img src="assets/images/ic_design.svg" alt="">
                 <h4>Design</h4>
@@ -116,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3 d-md-block">
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-delay="400">
               <div class="card-body">
                 <img src="assets/images/ic_development.svg" alt="">
                 <h4>Development</h4>
@@ -127,7 +129,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3 d-md-block">
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-delay="800">
               <div class="card-body">
                 <img src="assets/images/ic_deploy.svg" alt="">
                 <h4>Deploy</h4>
@@ -139,7 +141,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-delay="1200">
           <div class="card cta">
             <div class="card-body">
               <h3>
@@ -153,13 +155,13 @@
 
       <!-- Works -->
       <section class="section-works">
-        <h2 class="title">Works</h2>
-        <hr class="text-left line">
-        <p class="description">
+        <h2 class="title" data-aos="fade-right">Works</h2>
+        <hr class="text-left line" data-aos="fade-right">
+        <p class="description" data-aos="fade-right">
             Selected work
         </p>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-delay="400">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -219,21 +221,21 @@
       </section>
 
       <!-- Tool & Skills -->
-      <section class="section-skiils">
-        <h2 class="title">Technical Skills</h2>
-        <hr class="text-left line">
+      <section class="section-skiils" data-aos="fade-right">
+        <h2 class="title" data-aos="fade-right">Technical Skills</h2>
+        <hr class="text-left line" data-aos="fade-right">
         <div class="row d-flex justify-content-between">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right">
             <p class="description">
               Technologies & tools I use for working
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="400">
             <img class="img-fluid" src="assets/images/technologies.png" alt="The Technology That I Use">
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in">
           <div class="card cta">
             <div class="card-body">
               <h3>
@@ -291,7 +293,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Ionicons -->
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script> -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
 
   </body>
 </html>
